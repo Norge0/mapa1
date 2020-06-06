@@ -36,7 +36,7 @@
     </head>
 
     <body>
-        <div id="map" style="height: 500px"></div>
+        <div id="map" style="height: 550px"></div>
 
         <script type="text/javascript">
 
@@ -118,7 +118,7 @@
           legend.onAdd = function (map) {
 
               var div = L.DomUtil.create('div', 'legend'),
-                  grades = [0, 32, 53, 87, 139]; // The break values to define the intervals of population, note we begin from 0 here
+                  grades = [0, 1, 5, 7, 12]; // The break values to define the intervals of population, note we begin from 0 here
 
               div.innerHTML = '<b>Population Density <br> 2011 <br></b>'; // The legend title, in this case it's Population Density 2011
 
